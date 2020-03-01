@@ -9,6 +9,7 @@ import { CustomerCardComponent } from './customer-card/customer-card.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
+import { CustomerNewComponent } from './customer-new/customer-new.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -19,6 +20,6 @@ import { MatIconModule } from '@angular/material/icon';
     MatCardModule,
     MatIconModule
   ],
-  declarations: [CustomerListComponent, CustomerCardComponent]
+  declarations: [CustomerListComponent, CustomerCardComponent, CustomerNewComponent]
 })
 export class CustomersModule { }

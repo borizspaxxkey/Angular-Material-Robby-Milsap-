@@ -12,6 +12,8 @@ import { MatMenuModule } from '@angular/material/menu';
 // Routing
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MessagesModule } from './messages/messages.module';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    MessagesModule,
+    FormsModule,
+    ReactiveFormsModule,
     // Material
     BrowserAnimationsModule,
     MatButtonModule,
@@ -29,7 +33,6 @@ import { AppComponent } from './app.component';
     MatToolbarModule,
     MatMenuModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
