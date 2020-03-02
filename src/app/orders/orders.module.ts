@@ -17,7 +17,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatMomentDateModule } from '@angular/material-moment-adapter';
-
+import { MatPaginatorModule } from '@angular/material/paginator';
 @NgModule({
   imports: [
     CommonModule,
@@ -33,7 +33,8 @@ import { MatMomentDateModule } from '@angular/material-moment-adapter';
     MatSortModule,
     MatTableModule,
     MatTabsModule,
-    MatMomentDateModule
+    MatMomentDateModule,
+    MatPaginatorModule
   ],
   declarations: [OrderListComponent, OrderNewComponent]
 })
